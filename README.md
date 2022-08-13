@@ -7,3 +7,9 @@
 - Database Setup
   - Connection
   - Outsource sensitive connection string to env
+
+## Important
+
+- models and routes
+
+- .env - config.js and db-connect.js
