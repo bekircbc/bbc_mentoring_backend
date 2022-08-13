@@ -18,7 +18,7 @@ POST {{API_URL}}/animals
 Content-Type: application/json
 
 {
-  "name": "Sneezing Sloth"
+  "name": "Lazy Dazy"
 }
 
 ### Create FAULTY
@@ -32,7 +32,7 @@ Content-Type: application/json
 
 
 ### UPDATE animal
-PATCH {{API_URL}}/animals/62f6541fdac3237496f6c955
+PATCH {{API_URL}}/animals/62f7ba29c94334f55bd9db21
 Content-Type: application/json
 
 {
