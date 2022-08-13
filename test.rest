@@ -1,0 +1,48 @@
+@API_URL = http://localhost:5000
+
+### HOME ROUTE
+GET {{API_URL}}
+
+### Get all animals
+GET {{API_URL}}/animals
+
+### Get single animal
+GET {{API_URL}}/animals/62f65806818b423db4abaa42
+
+### Get single animal (faulty)
+GET {{API_URL}}/animals/undefined
+
+
+### Create animal
+POST {{API_URL}}/animals
+Content-Type: application/json
+
+{
+  "name": "Lazy Dazy"
+}
+
+### Create FAULTY
+POST {{API_URL}}/animals
+Content-Type: application/json
+
+{
+  "username": "Terrific Trex"
+}
+
+
+
+### UPDATE animal
+PATCH {{API_URL}}/animals/62f7ba29c94334f55bd9db21
+Content-Type: application/json
+
+{
+  "name": "Crazy Chamaleon",
+  "age": 77
+}
+
+### DELETE animal
+DELETE {{API_URL}}/animals/62f6541fdac3237496f6c955
+
+
+### 404 route
+GET {{API_URL}}/not-available
