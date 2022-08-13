@@ -36,8 +36,8 @@ PATCH {{API_URL}}/animals/62f7ba29c94334f55bd9db21
 Content-Type: application/json
 
 {
-  "name": "Crazy Chamaleon",
-  "age": 77
+  "name": "Crazy Chamaleon2",
+  "age": 99
 }
 
 ### DELETE animal
